@@ -2,6 +2,7 @@ import { ConnectorConfig, ConnectorInit } from './types'
 import initFortmatic from './connectors/ConnectorFortmatic'
 import initFrame from './connectors/ConnectorFrame'
 import initInjected from './connectors/ConnectorInjected'
+import initMagic from './connectors/ConnectorMagic'
 import initPortis from './connectors/ConnectorPortis'
 import initProvided from './connectors/ConnectorProvided'
 import initTorus from './connectors/ConnectorTorus'
@@ -17,6 +18,7 @@ export function getConnectors(
     fortmatic: [initFortmatic, null],
     frame: [initFrame, null],
     injected: [initInjected, null],
+    magic: [initMagic, null],
     portis: [initPortis, null],
     provided: [initProvided, null],
     torus: [initTorus, null],

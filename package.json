@@ -1,6 +1,6 @@
 {
   "name": "use-wallet",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "author": "Aragon Association <legal@aragon.org>",
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -24,6 +24,7 @@
     "@web3-react/fortmatic-connector": "^6.1.6",
     "@web3-react/frame-connector": "^6.0.9",
     "@web3-react/injected-connector": "^6.0.7",
+    "@web3-react/magic-connector": "^6.1.6",
     "@web3-react/portis-connector": "^6.1.6",
     "@web3-react/torus-connector": "^6.1.7",
     "@web3-react/walletconnect-connector": "^6.1.6",
